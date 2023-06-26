@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8080
-ADD target/enkins-docker-first.jar denkins-docker-first.jar
-ENTRYPOINT ["java","-jar","/enkins-docker-first.jar"]
+ADD target/jenkins-docker-first.jar jenkins-docker-first.jar
+ENTRYPOINT ["java","-jar","/jenkins-docker-first.jar"]
